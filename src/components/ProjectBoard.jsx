@@ -1,12 +1,12 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
 import ProjectCard from "./ProjectCard";
-import { backendUrl } from "../../settings.json"
+import { configs } from "../../settings";
 
 export default function ProjectBoard() {
   const [ projects, setProjects ] = useState([]);
   const [error, setError] = useState(null);
-
+  const backendUrl = configs.backendUrl;
   const fetchData = async () => {
     try {
       setError(null)
