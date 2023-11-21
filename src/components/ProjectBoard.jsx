@@ -25,7 +25,7 @@ export default function ProjectBoard() {
   return (
     error
       ?
-        <div className="flex flex-grow"></div>
+        <div className="flex flex-grow h-screen"></div>
       :
         <div className="md:text-center mx-auto md:max-w-[90%] py-16">
           <h2 className="dark:text-teal-600 text-gray-700 text-3xl mb-8 mt-16 font-bold">My Projects</h2>
