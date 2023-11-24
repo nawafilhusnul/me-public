@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
   return (
     <div className='border-4 border-slate-300 p-3 shadow-xl'>
       <h1 className="dark:text-gray-300 pb-2">{project.title}</h1>
-      <img className='object-cover ' src={`${imageUrl}/20231013_153613.jpg?alt=media&token=${storageToken}`} alt='image'/>
+      <img className='object-cover ' src={`${project.photos?project.photos[0]:''}`} alt='image'/>
     </div>
   )
 }

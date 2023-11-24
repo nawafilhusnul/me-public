@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import Media from './components/Media'
 import About from './components/About'
 import { useState } from 'react';
-import ProjectCard from './components/ProjectBoard';
+import Carousel from './components/Carousel';
 
 function App() {
   const [ darkMode, setDarkMode ] = useState(true);
@@ -15,7 +15,9 @@ function App() {
           <Media />
         </section>
         <section>
-          <ProjectCard/>
+        <h2 className="text-md py-2 text-teal-800 font-medium md:text-3xl">My Works Gallery</h2>
+          {/* <ProjectCard/> */}
+          <Carousel/>
         </section>
       </main>
     </div>

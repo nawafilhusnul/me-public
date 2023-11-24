@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
@@ -6,7 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'xs': '475px',
+      ...defaultTheme.screens,
+    },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
