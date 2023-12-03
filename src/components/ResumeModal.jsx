@@ -3,7 +3,7 @@ export function ModalResume() {
     <dialog id="resume_modal" className="modal">
       <div className="modal-box dark:bg-gray-800 bg-gray-200 text-center">
         <h3 className="font-bold text-lg dark:text-gray-300 py-4">Which file do you want to download?</h3>
-        <div className="flex py-6 flex-wrap justify-between gap-4 px-6">
+        <div className="flex py-6 flex-wrap justify-between gap-4 px-6 select-none">
           <button
             className="flex-1 mx-4 hover:bg-gradient-to-r from-pink-500  to-red-500 dark:text-white py-2 rounded-md text-sm border border-pink-500"
             onClick={()=>{
