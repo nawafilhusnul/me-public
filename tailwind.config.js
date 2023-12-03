@@ -11,7 +11,11 @@ export default {
       'xs': '475px',
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'homemade': ['Homemade Apple', 'cursive']
+      },
+    },
   },
   plugins: [require("daisyui")],
 }
