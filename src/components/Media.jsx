@@ -9,7 +9,7 @@ export default function Media(){
       <AiFillGithub className="cursor-pointer hover:text-gray-800 dark:hover:text-gray-400" onClick={()=>{
         window.open('https://github.com/nawafilhusnul');
       }}/>
-      <AiFillLinkedin className="cursor-pointer hover:text-blue-800 dark:hover:text-blue-700" onClick={()=>{
+      <AiFillLinkedin className="cursor-pointer hover:text-blue-800" onClick={()=>{
         window.open('https://linkedin.com/in/husnulnawafil');
       }}/>
     </div>
