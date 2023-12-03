@@ -16,8 +16,7 @@ function App() {
           <Media />
         </section>
         <section>
-        <h2 className="text-md py-2 text-teal-800 font-medium md:text-3xl">My Works Gallery</h2>
-          {/* <ProjectCard/> */}
+        <h2 className="text-md pt-20 pb-6 text-teal-800 font-medium md:text-3xl text-center">My Works Gallery</h2>
           <Carousel />
         </section>
         <Footer />
